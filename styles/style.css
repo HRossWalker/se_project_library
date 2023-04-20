@@ -269,8 +269,6 @@
   color: white;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
-
 .staff__content {
   max-width: 760px;
   display: flex;
@@ -281,6 +279,7 @@
   list-style-type: none;
   padding-left: 0;
 }
+
 .card {
   background-color: #fff;
   border-radius: 6px;
@@ -340,8 +339,6 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-
-  /* Add styles */
 }
 
 .step {
@@ -419,9 +416,6 @@
 
 .footer__columns {
   display: flex;
-  /* min-height: 224px;
-  padding: 60px 80px 0x 102px;
-  justify-content: center; */
 }
 
 .footer__column_content_hours {
@@ -433,15 +427,10 @@
 }
 
 .footer__logo {
-  /* font-size: 116px;
-  line-height: 21px;
-  margin-right: auto;
-  margin-bottom: 108px; */
   width: 153px;
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -483,8 +472,5 @@
 }
 
 .footer__copyright {
-  /* position: realtive;
-  bottom: 0;
-  left: 0; */
   margin: 108px 0 0;
 }
